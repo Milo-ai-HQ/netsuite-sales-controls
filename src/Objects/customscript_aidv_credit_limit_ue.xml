@@ -1,0 +1,14 @@
+<usereventscript scriptid="customscript_aidv_credit_limit_ue">
+  <name>AIDV Credit Limit Check</name>
+  <scriptfile>[/SuiteScripts/aidv/aidv_credit_limit_ue.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_aidv_credit_limit_ue">
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <recordtype>SALESORDER</recordtype>
+      <status>RELEASED</status>
+      <allroles>T</allroles>
+      <executioncontext>ACTION|CLIENT|CSVIMPORT|RESTLET|RESTWEBSERVICES|SUITELET|USERINTERFACE|WEBSERVICES|WORKFLOW|USEREVENT|SCHEDULED|MAPREDUCE</executioncontext>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>

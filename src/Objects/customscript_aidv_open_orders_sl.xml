@@ -1,0 +1,14 @@
+<suitelet scriptid="customscript_aidv_open_orders_sl">
+  <name>AIDV Open Orders by Customer</name>
+  <scriptfile>[/SuiteScripts/aidv/aidv_open_orders_sl.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_aidv_open_orders_sl">
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <status>RELEASED</status>
+      <allroles>F</allroles>
+      <audslctrole>ADMINISTRATOR|ACCOUNTANT|SALESMANAGER</audslctrole>
+      <title>Open Orders by Customer</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
